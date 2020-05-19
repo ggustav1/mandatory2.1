@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gustavs project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<p>Sign in</p>
+<div>
+    <form action="/login" method="POST">
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        <button type="submit">Sign in</button>
+    </form>
+</div>
+
+<br>
+<p>Don't have an account yet? Sign up here</p>
+<div>
+    <form action="/signup" method="POST">
+        <input type="text" placeholder="Username" name="signupUsername">
+        <input type="password" placeholder="Password" name="signupPassword">
+        <input type="password" placeholder="Repeat password" name="passwordRepeat">
+        <input type="number" placeholder="Age" name="age">
+
+        <button type="submit">Sign up</button>
+    </form>
+</div>
+
+</body>
+</html>
